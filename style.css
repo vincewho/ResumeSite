@@ -1,0 +1,86 @@
+body{
+    background-image: url(images/forestroad.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    padding-top: 70px;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .container{
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+
+ .divider{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+/*Start navbar custom*/
+.navbar {
+    margin-bottom: 0;
+    background-color: #616161;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #616161 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+/*End Navbar*/
+
+.top-color {
+    /*margin-top: 20px;*/
+    height: 8px;
+    width: 20%;
+    float: left;
+    background: #249991;
+}
+.top-color1{
+    background-color: #468966;
+}
+
+.top-color2{
+    background-color: #FFB03B;
+}
+
+.top-color3{
+    background-color: #B64926;
+}
+
+.container#profile{
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.namebold{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #D4315C
+}
+
+#edu-col,
+#skillz-col,
+#exp-col h1{
+    text-align: center;
+}
+
+#edu-info p{
+    margin-right: 30px;
+}
